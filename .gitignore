@@ -1,0 +1,49 @@
+# Model artifacts (host on Hugging Face Hub for deployment)
+models/
+*.pkl
+
+# Data (download from Kaggle)
+data/
+*.csv
+
+# Notebooks (exploration only, not required for deployment)
+notebooks/
+
+# Project planning & internal docs (not for public repo)
+project-plan.md
+description.txt
+walkthrough.md.resolved
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs (training logs)
+outputs/
+

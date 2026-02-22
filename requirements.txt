@@ -1,0 +1,37 @@
+# Core data science
+numpy>=1.24,<3
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+
+# NLP & text
+nltk>=3.8
+beautifulsoup4>=4.12
+fuzzywuzzy>=0.18
+python-Levenshtein>=0.21
+distance>=0.1.3
+
+# Models
+xgboost>=2.0
+lightgbm>=4.0
+
+# Embeddings (Phase 2)
+torch>=2.0
+sentence-transformers>=2.2
+
+# Transformer fine-tuning
+transformers>=4.30
+datasets>=2.14
+accelerate>=0.20
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+
+# Progress & utils
+tqdm>=4.65
+
+# Jupyter (for notebooks)
+jupyter>=1.0
+ipykernel>=6.0
