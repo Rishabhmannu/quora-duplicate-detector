@@ -24,6 +24,24 @@ _app_dir = Path(__file__).resolve().parent
 _transformer_dir = _models_dir / "transformer"
 _inference_times_path = _models_dir / "inference_times.json"
 
+
+def _ensure_models_from_hf():
+    """Download models from HF Hub if not present and HF_MODEL_REPO is set."""
+    import os
+    repo_id = os.environ.get("HF_MODEL_REPO")
+    if not repo_id or (_models_dir / "model.pkl").exists():
+        return
+    try:
+        from huggingface_hub import snapshot_download
+        _models_dir.mkdir(parents=True, exist_ok=True)
+        snapshot_download(repo_id=repo_id, local_dir=str(_models_dir))
+    except Exception as e:
+        print(f"HF Hub download skipped or failed: {e}")
+
+
+# Try HF Hub download when models missing (for HF Spaces deployment)
+_ensure_models_from_hf()
+
 # Classical model artifacts (lazy loaded)
 _classical_model = None
 _classical_cv = None

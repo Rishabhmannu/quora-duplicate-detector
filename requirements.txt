@@ -24,6 +24,10 @@ transformers>=4.30
 datasets>=2.14
 accelerate>=0.20
 
+# App (Gradio for HF Spaces)
+gradio>=4.0
+huggingface_hub>=0.20
+
 # Visualization
 matplotlib>=3.7
 seaborn>=0.13

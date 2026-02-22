@@ -1,3 +1,5 @@
+# Screenshots for README
+
 Add 4 screenshot images for the README 2×2 grid:
 - `ss1.png` — App home / input screen
 - `ss2.png` — Example duplicate result
@@ -5,3 +7,7 @@ Add 4 screenshot images for the README 2×2 grid:
 - `ss4.png` — Model selector / About section
 
 Place your screenshots in this folder with the names above.
+
+---
+
+**Live demo:** [Hugging Face Spaces](https://huggingface.co/spaces/cmpunkmannu/quora-duplicate-detector)

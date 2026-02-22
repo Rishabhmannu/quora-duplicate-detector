@@ -1,8 +1,11 @@
 # Quora Duplicate Question Detector
 
-A NLP project to detect whether two Quora questions are semantically duplicate — built for fun & learning.
+### **Detect semantically duplicate Quora questions with ML & transformers**
 
-**Dataset:** [Quora Question Pairs (Kaggle)](https://www.kaggle.com/c/quora-question-pairs)
+*Built for fun & learning*
+
+<a href="https://www.kaggle.com/c/quora-question-pairs"><img src="https://img.shields.io/static/v1?label=Kaggle&message=Dataset&color=20BEFF&logo=kaggle"></a>
+<a href="https://huggingface.co/spaces/cmpunkmannu/quora-duplicate-detector"><img src="https://img.shields.io/static/v1?label=HuggingFace&message=Demo&color=yellow&logo=huggingface"></a>
 
 ---
 
